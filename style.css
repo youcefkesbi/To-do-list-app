@@ -4,6 +4,15 @@
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
+
+html {
+    height: webkit-fill-available;
+}
+
+body {
+    height: webkit-fill-available;
+}
+
 .container {
     width: 100%;
     min-height: 100vh;
@@ -174,37 +183,4 @@ ul li span:hover {
         border-radius: 18px;
         /* margin-right: 20px; */
     }
-} 
-
-@media (max-width: 260px) {
-    .container {
-        padding: 5px;
-    }
-
-    .to-do-app {
-        max-width: 250px;
-        min-height: 90px;
-        padding: 20px 20px 40px;
-        /* margin: center 0; */
-    }
-
-    .to-do-app h2 {
-        font-size: 16px;
-    }
-
-    .row {
-        border-radius: 18px;
-        /* margin-bottom: 0px; */
-    }
-
-    input {
-        padding: 3px 0px 3px 0px;
-    }
-
-    button {
-        font-size: 8px;
-        padding: 5px 10px;
-        border-radius: 18px;
-        /* margin-right: 20px; */
-    }
-} 
+}
